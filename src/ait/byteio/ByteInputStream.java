@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class ByteInputStream {
     public static void main(String[] args) {
-        try (FileInputStream fin = new FileInputStream("./result/test2")) {
+        try (FileInputStream fin = new FileInputStream("./dest/test")) {
 //            System.out.println("Available = " + fin.available());
 //            int a = fin.read();
 //            System.out.println(a);
